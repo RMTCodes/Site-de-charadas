@@ -1,0 +1,63 @@
+@font-face {
+  font-family:"Caveat";
+  src: url('static/Caveat-Semibold.ttf')
+}
+
+h1, h2, p {
+    font-family:"Caveat";
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+  }
+
+main {
+    background: url(Illustration.svg) no-repeat;
+    background-size: 830px 380px;
+    text-align: center;
+    padding: 10px 0px;
+    /* justify-content: center; */
+    margin: 0 auto;
+    width: 858px;
+    height: 360px;
+    background-position-x: 16px;
+    background-position-y: 11px;
+}
+
+.divider {
+  height: 43px; 
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+    font-size:22px;
+    
+  }
+
+html {
+  background: linear-gradient(rgb(6, 1, 40) 60%,rgb(4, 156, 145)) ;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 100%;
+}
+
+
+.palavra{
+  opacity: 0;
+}
+.palavra:hover {
+  opacity: 100;
+  color: rgb(0, 255, 242);
+}
+
+.mini {
+  background: url(nuvem.mini.png) no-repeat; /*brown;*/
+  background-position: center;
+  padding: 0px 1px;
+  width: 143px;
+  height: 45px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
