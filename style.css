@@ -1,6 +1,6 @@
 @font-face {
   font-family:"Caveat";
-  src: url('./static/Caveat-Semibold.ttf')
+  src: url('static/Caveat-Semibold.ttf')
 }
 
 h1, h2, p {
